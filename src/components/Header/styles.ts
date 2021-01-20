@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import BkgHeader from '../../assets/images/download.jpg';
-import { moveInRight, moveInLeft, moveInBottom } from './animations';
+import { moveInRight, moveInLeft } from './animations';
 
 export const Header = styled.header`
     height: 95vh;
@@ -19,11 +19,11 @@ export const Header = styled.header`
 
 export const LogoBox = styled.div`
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 
     .logo {
-        height: 35px;
+        height: 3.5rem;
         animation: ${moveInRight} 1s ease-out;
     }
 `;
@@ -40,21 +40,21 @@ export const HeadingPrimary = styled.h1`
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 
     .heading-primary-main {
         display: block;
-        font-size: 50px;
+        font-size: 5rem;
         font-weight: 400;
-        letter-spacing: 35px;
+        letter-spacing: 3.5rem;
         animation: ${moveInLeft} 1s ease-out;
     }
 
     .heading-primary-sub {
         display: block;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 17.4px;
+        letter-spacing: 1.74rem;
         animation: ${moveInRight} 1s ease-out;
     }
 `;
